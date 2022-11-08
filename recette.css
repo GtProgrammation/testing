@@ -1,0 +1,261 @@
+
+                
+                  *{
+                    overflow: auto; 
+                 }
+                 body
+                {
+                    background-color:#8BA1BB;
+                    font-family: Arial;
+                    margin-bottom: 200px;
+                   
+                    
+      
+                }
+                p#tree
+                {
+                    background-color: black;
+                    color:white;
+                    padding: 10px 30px 10px 30px;
+                    display:inline-block;
+                    margin-bottom: 0px;
+                    font-weight: bold;
+                    text-align : center;
+                    
+                    
+                }
+                div.cx
+                {
+                    text-align : center;
+                    margin-bottom: -40px;
+                    margin-top: 20;
+                    
+                }
+                div.ss
+                {
+                    
+                    background-color:white ;
+                   
+                    padding : 10px 5% 10px 5%;
+                    margin : 20px 4px 40px 4px;
+
+                  
+                    box-shadow: 1px 1px 2px gray, 0 0 25px black, 0 0 5px gray;
+                    
+
+                }
+                p.qq
+                {
+                    text-align : center;
+                    max-width: 410px;
+                    display: inline-block;
+                    font-size: 14px;
+                    
+                }
+                div.qqY 
+                {
+                    text-align : center;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                    
+                    
+                }
+           
+                
+             
+                div.d1
+                {
+                    width: 200px;
+                    height: 2px;
+                    background-color: black;
+                    margin-right: auto;
+                    margin-left: auto;
+                    
+                                      
+                }
+                .fg
+                {
+                    margin-left: -20px;
+                    margin-top:30px ;
+
+                }
+                .img
+                {
+                    text-align: center;
+                    width: 100%;
+                    object-fit: cover;
+                }
+                .info
+                {
+                    position: relative;
+                    bottom: 0px;
+                    width: 100%;
+                    
+             
+             
+            
+
+                }
+                .info1
+                {
+                    position:absolute ;
+                     width: 100%;
+                     color: white;
+                      background-color:#6C829DC0 ;
+                       bottom: 0px;
+                        height: 50px; 
+                  
+
+                }
+                .info td
+                {
+                    text-align: center;
+                    font-size: 12px;
+                   
+                    vertical-align: top;
+                    
+                    
+                   
+                }
+                .info th
+                {
+                    vertical-align: bottom;
+                    padding-bottom: 15px;
+                    font-size: 14px;
+                    
+                   
+                    
+
+
+                }
+                div.colonne
+                {
+                    width: 100%;
+                   
+
+                }
+                div.colonne h1
+                {
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    margin-right: 10%;
+                    border-bottom:  5px  solid #6C829D ;
+                    margin-left:  30px; 
+                }
+                div.colonne1
+                {
+                    
+                    display: inline-block;
+
+                }
+                /*div.colonne2
+                {
+                    float: right;
+                    
+                    
+                }*/
+                div.ulPr p
+                {
+                    border: 2px solid lightgray;
+                    margin: 7px;
+                    padding: 10px;
+                    text-align: center;
+                    font-size: 14px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                   
+
+
+                }
+                table.tablePr td.ecriture
+                {
+                    font-size: 14px;
+                }
+                table.tablePr p.numero
+                {
+                    background-color: #6C829D;
+                    color: white;
+                    width: 30px;
+                    text-align: center;
+                    height: 30px;
+                    font-weight: bold;
+                    padding-top: 6px;
+                    box-sizing: border-box;
+                    border-radius: 50%;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+                }
+                /*style ordinateur*/
+              
+                @media only screen and (min-width: 768px)
+                {
+                    div.ss
+                    {
+                    
+                        margin : 50px 100px 50px 100px;
+                      
+                    }
+                    div.cx
+                    {
+                        min-width: 350px;
+                    }
+                    div.ss
+                    {
+                        min-width: 350px;
+                    }
+                    .info td
+                    {
+                        font-size: 15px;
+                        
+                    }
+                    .info th
+                    {
+                        font-size: 20px;
+
+                    }
+                    .info1
+                    {
+                        height: 90px; 
+                    }
+                    div.colonne2
+                    {
+                        float: right;
+                        
+                        
+                    }
+                    div.colonne
+                    {
+                        width: 45%;
+                       
+    
+                    }
+                    body
+                    {
+                     
+                        margin-bottom: 8px;
+                       
+                        
+          
+                    }
+
+                }
+                @media only screen and (min-width: 900px)
+                {
+                    div.ss
+                {
+                    
+                    
+                   margin-left: auto;
+                   margin-right: auto;
+
+                   max-width: 645px;
+
+
+                }
+
+
+                }
+
+     
+            
+         
+          
